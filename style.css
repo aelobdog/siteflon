@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+}
+
+textarea {
+    flex-grow: 1;
+    height: 100%;
+    resize: none;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    caret-color: #000;
+    caret-width: 10px;
+}
+
+iframe {
+    flex-grow: 1;
+    height: 100%;
+    border: none
+}
+
+button {
+    border: none;
+    margin-left: 41%;
+    width: 15%;
+    height: 40px;
+    background-color: #444;
+    color: #ddd;
+    font-family: monospace;
+    font-size: 17px;
+}
